@@ -11,6 +11,7 @@ body {
   color: #333;
   display: flex;
   justify-content: center;
+  background-color: #000;
 }
 
 .page-wrapper {
@@ -140,4 +141,28 @@ body {
 
 .site-footer a:hover {
   color: #666666;
+}
+
+.div-center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.branded-text{
+  font-family: Century Gothic;
+}
+
+#title-text{
+  color:#fafafa;
+  font-size: 40px;
+}
+
+#subheader-text{
+  color:#ccc;
+  font-size: 24px;
+}
+
+#sendBtn{
+  background-color: #FF0000;
 }

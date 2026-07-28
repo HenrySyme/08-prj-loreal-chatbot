@@ -13,25 +13,33 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="secrets.js"></script>
   </head>
 
   <body>
     <div class="page-wrapper">
       <!------- Header / Branding ------->
       <header class="site-header">
-        <h1 class="site-title">Smart Product Advisor</h1>
+        <div class="div-center">
+          <img src="img/lorea-logo-white.png" alt="loreal-logo" width="400">
+          <h1 class="branded-text" id="title-text">Chat bot</h1>
+        </div>
+        <div class="div-center">
+          <p class="branded-text" id="subheader-text">Ask me anything about our products</p>
+        </div>
       </header>
 
       <!------- Chat Area ------->
       <main>
         <section class="chatbox">
-          <div id="chatWindow" class="chat-window">
+          <div id="chatWindow" class="chat-window branded-text">
             <!-- messages will be appended here via JS -->
           </div>
 
           <form id="chatForm" class="chat-form">
             <label for="userInput" class="visually-hidden">Message</label>
             <input
+              class="branded-text"
               id="userInput"
               name="userInput"
               type="text"
